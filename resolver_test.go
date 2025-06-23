@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-var client, _ = ethclient.Dial("https://mainnet.infura.io/v3/831a5442dc2e4536a9f8dee4ea1707a6")
+var client, _ = ethclient.Dial("https://ethereum-rpc.publicnode.com")
 
 func TestResolveEmpty(t *testing.T) {
 	_, err := Resolve(client, "")
@@ -69,8 +69,8 @@ func TestResolveResolverEth(t *testing.T) {
 }
 
 func TestResolveEthereum(t *testing.T) {
-	expected := "de0b295669a9fd93d5f28d9ec85e40f4cb697bae"
-	actual, err := Resolve(client, "ethereum.eth")
+	expected := "d8da6bf26964af9d7eed9e03e53415d37aa96045"
+	actual, err := Resolve(client, "vitalik.eth")
 	require.Nil(t, err, "Error resolving name")
 	assert.Equal(t, expected, hex.EncodeToString(actual[:]), "Did not receive expected result")
 }
