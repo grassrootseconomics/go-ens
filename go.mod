@@ -12,7 +12,7 @@ require (
 	github.com/wealdtech/go-multicodec v1.4.0
 	github.com/wealdtech/go-string2eth v1.2.1
 	golang.org/x/crypto v0.39.0
-	golang.org/x/net v0.36.0
+	golang.org/x/net v0.41.0
 )
 
 require (
