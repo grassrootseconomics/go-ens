@@ -17,8 +17,8 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/wealdtech/go-ens/v3/contracts/offchainresolver"
-	"github.com/wealdtech/go-ens/v3/contracts/universalresolver"
+	"github.com/grassrootseconomics/go-ens/v3/contracts/offchainresolver"
+	"github.com/grassrootseconomics/go-ens/v3/contracts/universalresolver"
 )
 
 var Bytes, _ = abi.NewType("bytes", "", nil)

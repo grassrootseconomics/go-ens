@@ -5,7 +5,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/wealdtech/go-ens/v3/contracts/universalresolver"
+	"github.com/grassrootseconomics/go-ens/v3/contracts/universalresolver"
 )
 
 type UniversalResolver struct {
