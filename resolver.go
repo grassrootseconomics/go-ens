@@ -26,8 +26,8 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/wealdtech/go-ens/v3/contracts/offchainresolver"
-	"github.com/wealdtech/go-ens/v3/contracts/resolver"
+	"github.com/grassrootseconomics/go-ens/v3/contracts/offchainresolver"
+	"github.com/grassrootseconomics/go-ens/v3/contracts/resolver"
 )
 
 var zeroHash = make([]byte, 32)
