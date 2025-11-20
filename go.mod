@@ -1,6 +1,6 @@
 module github.com/grassrootseconomics/go-ens/v3
 
-go 1.24
+go 1.24.0
 
 require (
 	github.com/ethereum/go-ethereum v1.15.11
@@ -11,8 +11,8 @@ require (
 	github.com/stretchr/testify v1.10.0
 	github.com/wealdtech/go-multicodec v1.4.0
 	github.com/wealdtech/go-string2eth v1.2.1
-	golang.org/x/crypto v0.39.0
-	golang.org/x/net v0.41.0
+	golang.org/x/crypto v0.45.0
+	golang.org/x/net v0.47.0
 )
 
 require (
@@ -45,9 +45,9 @@ require (
 	github.com/tklauser/numcpus v0.9.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	golang.org/x/exp v0.0.0-20241217172543-b2144cdd0a67 // indirect
-	golang.org/x/sync v0.15.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.4.1 // indirect
 )
